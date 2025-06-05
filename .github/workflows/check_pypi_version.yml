@@ -5,9 +5,9 @@ name: Check PyPI Version
 # See https://github.com/Aider-AI/aider/issues/3699 for example.
 
 on:
-  schedule:
+  # schedule:
     # Run once a day at midnight UTC
-    - cron: '0 0 * * *'
+    # - cron: '0 0 * * *'
   workflow_dispatch: # Allows manual triggering
 
 jobs:
